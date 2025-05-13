@@ -14,8 +14,12 @@ Set up ESP32 and Arduino enviornment. Execute sketch " Wifiscanner".
 ## Links to documentation
 
 ##### Video 1: 
+[https://www.youtube.com/watch?v=pRa3cijuuik]
+
+ 
 
 ##### Other Links: 
+
 
 
 ## Steps I followed
@@ -26,8 +30,8 @@ Set up ESP32 and Arduino enviornment. Execute sketch " Wifiscanner".
 5. ESP32-CAM Example 1 : Blink (File > Basic > Blink)
 6. More CAM Example : (File > Examples > ESP32)
 7. ESP32-CAM Example 2 : Live Video Streaming Server (File > Examples > ESP32 > Camera > CameraWebServer)
-   # Because we’re using the AI-THINKER model here, uncomment it and comment all the other models.
-   ## Next, you need to tell the ESP32-CAM about your wireless network. Fill in the following variables with your network credentials:
+   #Because we’re using the AI-THINKER model here, uncomment it and comment all the other models.
+   ##Next, you need to tell the ESP32-CAM about your wireless network. Fill in the following variables with your network credentials:
 8. Accessing the Video Streaming Server (open the serial monitor at baud rate 115200 and press the Reset button on the ESP32-CAM.)
 
 
@@ -38,9 +42,11 @@ Set up ESP32 and Arduino enviornment. Execute sketch " Wifiscanner".
 ## Problems
 Note your problems or errors here.  Google any error you may come across, and not what you tried (even if it does not work), and what was the final answer. Document your errors and solutions that worked for you.  
 
+1. I have a MacBook Air that only has USB-C ports but ESP32-CAM-MB uses a USB-A to USB cable, which doesn’t fit into my laptop.
 
+How did I solve: I got the Apple USB-C to USB-A Adapter to connect the USB-A cable to my MacBook. After that I was able to connect the ESP32-CAM-MB to my laptop.
 
-1.WiFi connecting...................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................x�x�x�x��xxxx�x����x������x�x�WiFi connecting........................................................ets Jul 29 2019 12:21:46
+2.WiFi connecting...................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................x�x�x�x��xxxx�x����x������x�x�WiFi connecting........................................................ets Jul 29 2019 12:21:46
 
 
  How did I solve:  I entered the wifi username wrong. I solved it by RE-entering the correct Wifi Credentials and it worked.
