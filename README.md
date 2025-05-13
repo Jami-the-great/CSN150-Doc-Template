@@ -22,7 +22,11 @@ Set up ESP32 and Arduino enviornment. Execute sketch " Wifiscanner".
 ##### Other Links: Video 2:
 [https://www.youtube.com/watch?v=I22uHf97EG4&t=1s]
 
-## Video 3
+### Video 3
+[https://www.youtube.com/watch?v=HQBtwz5EBZM]
+
+#### Video 4
+[https://www.youtube.com/watch?v=4inE-n6kXSE]
 
 
 
