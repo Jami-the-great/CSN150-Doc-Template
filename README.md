@@ -19,19 +19,32 @@ Set up ESP32 and Arduino enviornment. Execute sketch " Wifiscanner".
 
 
 ## Steps I followed
-1. Write the steps you followed here.  This way you can keep track of where you might have messed up if the project does not work. 
+1. Installing the Arduino IDE ( https://www.arduino.cc/en/software/). 
+2. Installing the USB-to-Serial Bridge Driver ([CH340 drivers](https://www.wch-ic.com/downloads/CH341SER_ZIP.html)
+3. Installing the ESP32 Arduino Core [File>preferences](https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json)
+4. Selecting the Board and Port (Tools > Board > ESP32 Arduino and select AI-Thinker ESP32-CAM)
+5. ESP32-CAM Example 1 : Blink (File > Basic > Blink)
+6. More CAM Example : (File > Examples > ESP32)
+7. ESP32-CAM Example 2 : Live Video Streaming Server (File > Examples > ESP32 > Camera > CameraWebServer)
+   # Because we’re using the AI-THINKER model here, uncomment it and comment all the other models.
+   ## Next, you need to tell the ESP32-CAM about your wireless network. Fill in the following variables with your network credentials:
+8. Accessing the Video Streaming Server (open the serial monitor at baud rate 115200 and press the Reset button on the ESP32-CAM.)
+
+
+
+
+
 
 ## Problems
 Note your problems or errors here.  Google any error you may come across, and not what you tried (even if it does not work), and what was the final answer. Document your errors and solutions that worked for you.  
 
+
+
 1.WiFi connecting...................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................x�x�x�x��xxxx�x����x������x�x�WiFi connecting........................................................ets Jul 29 2019 12:21:46
 
 
- How did I solve:  
+ How did I solve:  I entered the wifi username wrong. I solved it by RE-entering the correct Wifi Credentials and it worked.
 
-### Example Problem
-1. Arduino code will not load on ESP32 Cam.
-   Answer: Camera drivers were incorrect I needed to install the driver: [https://www.wch-ic.com/downloads/CH341SER_ZIP.html](https://github.com/martin-ger/esp32_nat_router).  I used file, "CH341SER.ZIP" and it worked.
 
 
 ## Final Report
