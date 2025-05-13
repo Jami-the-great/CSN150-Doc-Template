@@ -16,9 +16,13 @@ Set up ESP32 and Arduino enviornment. Execute sketch " Wifiscanner".
 ##### Video 1: 
 [https://www.youtube.com/watch?v=pRa3cijuuik]
 
+
  
 
-##### Other Links: 
+##### Other Links: Video 2:
+[https://www.youtube.com/watch?v=I22uHf97EG4&t=1s]
+
+## Video 3
 
 
 
@@ -44,7 +48,7 @@ Note your problems or errors here.  Google any error you may come across, and no
 
 1. I have a MacBook Air that only has USB-C ports but ESP32-CAM-MB uses a USB-A to USB cable, which doesn’t fit into my laptop.
 
-How did I solve: I got the Apple USB-C to USB-A Adapter to connect the USB-A cable to my MacBook. After that I was able to connect the ESP32-CAM-MB to my laptop.
+How did I solve: I got a USB-C to USB Adapter to connect the USB-A cable to my MacBook. After that I was able to connect the ESP32-CAM-MB to my laptop.
 
 2.WiFi connecting...................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................x�x�x�x��xxxx�x����x������x�x�WiFi connecting........................................................ets Jul 29 2019 12:21:46
 
