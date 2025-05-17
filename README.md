@@ -50,6 +50,6 @@ NO Troublehooting needed for this project. Everything worked correctly once driv
  How did I solve:  N/A
 
 ## Screenshot
-![WiFiScan Result] 
+![WiFiScan Result](Detected Networks.png)
 
 ## Final Report
