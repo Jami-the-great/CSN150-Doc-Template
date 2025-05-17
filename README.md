@@ -53,3 +53,11 @@ NO Troublehooting needed for this project. Everything worked correctly once driv
 ![WiFiScan Result] [<img width="1440" alt="Detected Networks" src="https://github.com/user-attachments/assets/239bea9e-3f9c-4ce4-8b68-0007f8472e04" />]
 
 ## Final Report
+03:38:43.046 -> 5 networks found
+03:38:43.046 -> Nr | SSID                             | RSSI | CH | Encryption
+03:38:43.046 ->  1 | Fios-p9HdZ                       |  -65 |  6 | WPA2
+03:38:43.046 ->  2 | FiOS-OODD1                       |  -90 | 11 | WPA2
+03:38:43.078 ->  3 | Fios-2TZ6k                       |  -93 |  6 | WPA2
+03:38:43.078 ->  4 | Verizon_C4FC4G                   |  -93 |  6 | WPA2
+03:38:43.078 ->  5 | Verizon_VBNH3P                   |  -96 |  1 | WPA2
+
