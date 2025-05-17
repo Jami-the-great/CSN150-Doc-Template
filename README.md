@@ -50,6 +50,6 @@ NO Troublehooting needed for this project. Everything worked correctly once driv
  How did I solve:  N/A
 
 ## Screenshot
-![WiFiScan Result](Detected Networks.png)
+![WiFiScan Result] [<img width="1440" alt="Detected Networks" src="https://github.com/user-attachments/assets/239bea9e-3f9c-4ce4-8b68-0007f8472e04" />]
 
 ## Final Report
