@@ -1,10 +1,10 @@
 # Cybersecurity : CSN150-Doc-Template
 
-## Name of Project.
-ESP32 Introduction
+## Name of Project
+WiFiScanner – ESP32
 
 ## Purpose
-Set up ESP32 and Arduino enviornment. Execute sketch " Wifiscanner". 
+Scan and display nearby WiFi networks using the ESP32-CAM and Arduino IDE. 
 
 ## Equipment
 * [ESP32Cam](https://www.amazon.com/Aideepen-ESP32-CAM-Bluetooth-ESP32-CAM-MB-Arduino/dp/B08P2578LV/ref=sr_1_3?crid=4FY0ECFW0ZX7&keywords=ESP32+Cam&qid=1678902050&sprefix=esp32+cam%2Caps%2C240&sr=8-3)
@@ -35,12 +35,11 @@ Set up ESP32 and Arduino enviornment. Execute sketch " Wifiscanner".
 2. Installing the USB-to-Serial Bridge Driver ([CH340 drivers](https://www.wch-ic.com/downloads/CH341SER_ZIP.html)
 3. Installing the ESP32 Arduino Core [File>preferences](https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json)
 4. Selecting the Board and Port (Tools > Board > ESP32 Arduino and select AI-Thinker ESP32-CAM)
-5. ESP32-CAM Example 1 : Blink (File > Basic > Blink)
-6. More CAM Example : (File > Examples > ESP32)
-7. ESP32-CAM Example 2 : Live Video Streaming Server (File > Examples > ESP32 > Camera > CameraWebServer)
-   #Because we’re using the AI-THINKER model here, uncomment it and comment all the other models.
-   ##Next, you need to tell the ESP32-CAM about your wireless network. Fill in the following variables with your network credentials:
-8. Accessing the Video Streaming Server (open the serial monitor at baud rate 115200 and press the Reset button on the ESP32-CAM.)
+5. More CAM Example : (File > Examples > WiFi > WiFiScan)
+7. Opened Serial Monitor (baud rate: 115200)
+8. Pressed the reset button on the ESP32-CAM to start the scan.  
+9. Verified detected WiFi networks appeared with their SSID, RSSI, channel, and encryption type.  
+
 
 
 
