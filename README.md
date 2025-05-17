@@ -49,6 +49,7 @@ Scan and display nearby WiFi networks using the ESP32-CAM and Arduino IDE.
 NO Troublehooting needed for this project. Everything worked correctly once drivers were installed and the correct board/port was selected.
  How did I solve:  N/A
 
-
+## Screenshot
+![WiFiScan Result] 
 
 ## Final Report
