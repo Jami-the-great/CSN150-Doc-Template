@@ -1,6 +1,6 @@
 # Cybersecurity : CSN150-Doc-Template
 
-## Name of Project
+## Name of Project.
 ESP32 Introduction
 
 ## Purpose
