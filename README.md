@@ -25,8 +25,7 @@ Scan and display nearby WiFi networks using the ESP32-CAM and Arduino IDE.
 ### Video 3
 [https://www.youtube.com/watch?v=HQBtwz5EBZM]
 
-#### Video 4
-[https://www.youtube.com/watch?v=4inE-n6kXSE]
+
 
 
 
@@ -47,16 +46,8 @@ Scan and display nearby WiFi networks using the ESP32-CAM and Arduino IDE.
 
 
 ## Problems
-Note your problems or errors here.  Google any error you may come across, and not what you tried (even if it does not work), and what was the final answer. Document your errors and solutions that worked for you.  
-
-1. I have a MacBook Air that only has USB-C ports but ESP32-CAM-MB uses a USB-A to USB cable, which doesn’t fit into my laptop.
-
-How did I solve: I got a USB-C to USB Adapter to connect the USB-A cable to my MacBook. After that I was able to connect the ESP32-CAM-MB to my laptop.
-
-2.WiFi connecting...................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................x�x�x�x��xxxx�x����x������x�x�WiFi connecting........................................................ets Jul 29 2019 12:21:46
-
-
- How did I solve:  I entered the wifi username wrong. I solved it by RE-entering the correct Wifi Credentials and it worked.
+NO Troublehooting needed for this project. Everything worked correctly once drivers were installed and the correct board/port was selected.
+ How did I solve:  N/A
 
 
 
