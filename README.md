@@ -20,24 +20,16 @@ Send WhatsApp messages automatically using an ESP32-CAM-MB and the CallMeBot API
 ##### Other Links: Website 2:
 ~(https://www.callmebot.com/blog/free-api-whatsapp-messages/0)~
  
- #new link 
-# ↓
-(https://www.callmebot.com/tag/esp32/ )
-
-### Video 3
-[https://www.youtube.com/watch?v=HQBtwz5EBZM]
-
-#### Video 4
-[https://www.youtube.com/watch?v=4inE-n6kXSE]
-
-
 
 ## Steps I followed
 1. Installing the Arduino IDE ( https://www.arduino.cc/en/software/). 
 2. Installing the USB-to-Serial Bridge Driver ([CH340 drivers](https://www.wch-ic.com/downloads/CH341SER_ZIP.html)
 3. Installing the ESP32 Arduino Core [File>preferences](https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json)
 4. Selecting the Board and Port (Tools > Board > ESP32 Arduino and select AI-Thinker ESP32-CAM)
-5. ESP32-CAM Example 1 : Blink (File > Basic > Blink)
+5. Add CallMeBot number to phone contacts (+34 684 73 40 44) and sent activation message via WhatsApp:
+'I allow callmebot to send me messages'
+
+
 6. More CAM Example : (File > Examples > ESP32)
 7. ESP32-CAM Example 2 : Live Video Streaming Server (File > Examples > ESP32 > Camera > CameraWebServer)
    #Because we’re using the AI-THINKER model here, uncomment it and comment all the other models.
