@@ -33,23 +33,28 @@ Send WhatsApp messages automatically using an ESP32-CAM-MB and the CallMeBot API
 8. Opened Serial Monitor (baud rate 115200) to check connection and API response.
 
 ## How I Used the Code to Send WhatsApp Messages from ESP32-CAM-MB
+
 1. Set up WiFi connection
 
    #In the Arduino sketch, I configured the ESP32-CAM-MB to connect to my WiFi network by providing my SSID and password.
+
 3. Constructed the API URL
 
 ##I built the CallMeBot API URL string using my phone number (without the + sign), the message I wanted to send (URL-encoded), and my API key received from CallMeBot.
+
 4. Used HTTPClient library
 
 ###The code uses the ESP32 HTTPClient library to perform an HTTP GET request to the CallMeBot API endpoint with the constructed URL.
+
 5. Sent the GET request
 
 ####I triggered the HTTP GET request from the ESP32 to the CallMeBot server.
+
 6. Handled the server response
 
 #####The ESP32 reads the HTTP response code and prints it to the Serial Monitor for debugging.
-7. My Message 
-For the message, I used:
+
+7. My Message For the message, I used:
 
  ######("esp32 via jamilex estevez") This message was sent directly to my WhatsApp using the CallMeBot API.
 
