@@ -28,16 +28,24 @@ Send WhatsApp messages automatically using an ESP32-CAM-MB and the CallMeBot API
 4. Selecting the Board and Port (Tools > Board > ESP32 Arduino and select AI-Thinker ESP32-CAM)
 5. Add CallMeBot number to phone contacts (+34 684 73 40 44) and sent activation message via WhatsApp:
 'I allow callmebot to send me messages'
+6. Waited for API key response from CallMeBot via WhatsApp.
+7. Programmed the ESP32-CAM-MB with Arduino code to connect to WiFi and send HTTP GET requests to CallMeBot API including phone number, message, and API key.
+8. Opened Serial Monitor (baud rate 115200) to check connection and API response.
 
-
-6. More CAM Example : (File > Examples > ESP32)
-7. ESP32-CAM Example 2 : Live Video Streaming Server (File > Examples > ESP32 > Camera > CameraWebServer)
-   #Because we’re using the AI-THINKER model here, uncomment it and comment all the other models.
-   ##Next, you need to tell the ESP32-CAM about your wireless network. Fill in the following variables with your network credentials:
-8. Accessing the Video Streaming Server (open the serial monitor at baud rate 115200 and press the Reset button on the ESP32-CAM.)
-
-
-
+## How I Used the Code to Send WhatsApp Messages from ESP32-CAM-MB
+1. Set up WiFi connection
+   #In the Arduino sketch, I configured the ESP32-CAM-MB to connect to my WiFi network by providing my SSID and password.
+2. Constructed the API URL
+##I built the CallMeBot API URL string using my phone number (without the + sign), the message I wanted to send (URL-encoded), and my API key received from CallMeBot.
+3. Used HTTPClient library
+###The code uses the ESP32 HTTPClient library to perform an HTTP GET request to the CallMeBot API endpoint with the constructed URL.
+4. Sent the GET request
+####I triggered the HTTP GET request from the ESP32 to the CallMeBot server.
+5. Handled the server response
+#####The ESP32 reads the HTTP response code and prints it to the Serial Monitor for debugging.
+6. My Message 
+For the message, I used:
+ ######("esp32 via jamilex estevez") This message was sent directly to my WhatsApp using the CallMeBot API.
 
 
 
