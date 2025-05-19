@@ -48,7 +48,6 @@ For the message, I used:
  ######("esp32 via jamilex estevez") This message was sent directly to my WhatsApp using the CallMeBot API.
 
 
-
 ## Problems
 Note your problems or errors here.  Google any error you may come across, and not what you tried (even if it does not work), and what was the final answer. Document your errors and solutions that worked for you.  
 
