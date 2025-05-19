@@ -19,6 +19,8 @@ Send WhatsApp messages automatically using an ESP32-CAM-MB and the CallMeBot API
 
 ##### Other Links: Website 2:
 ~(https://www.callmebot.com/blog/free-api-whatsapp-messages/0)~
+## new link 
+[(https://www.callmebot.com/tag/esp32/ )
 
 ### Video 3
 [https://www.youtube.com/watch?v=HQBtwz5EBZM]
