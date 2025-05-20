@@ -56,21 +56,21 @@ Send WhatsApp messages automatically using an ESP32-CAM-MB and the CallMeBot API
 
 7. My Message For the message, I used:
 
- ######("esp32 via jamilex estevez") This message was sent directly to my WhatsApp using the CallMeBot API.
+ ######("Hello from ESP32 via Jamilex Estevez!") This message was sent directly to my WhatsApp using the CallMeBot API.
 
 
 ## Problems
 Note your problems or errors here.  Google any error you may come across, and not what you tried (even if it does not work), and what was the final answer. Document your errors and solutions that worked for you.  
 
-1. I have a MacBook Air that only has USB-C ports but ESP32-CAM-MB uses a USB-A to USB cable, which doesn’t fit into my laptop.
+1. CallMeBot number not found on WhatsApp. 
 
-How did I solve: I got a USB-C to USB Adapter to connect the USB-A cable to my MacBook. After that I was able to connect the ESP32-CAM-MB to my laptop.
+How did I solve: Double checked CallMeBot’s number on their official site. Added the correct one manually. (+34 684 73 40 44)
 
-2.WiFi connecting...................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................x�x�x�x��xxxx�x����x������x�x�WiFi connecting........................................................ets Jul 29 2019 12:21:46
+2.Received HTTP error 203 when sending message indicating possible API key or request format issues.
 
-
- How did I solve:  I entered the wifi username wrong. I solved it by RE-entering the correct Wifi Credentials and it worked.
+ How did I solve:  This error occurred because I forgot to add the digit 1 before my U.S. phone number in international format. CallMeBot requires the number to start with the country code like 1917XXXXXXX. Once I fixed that the message went through successfully.
 
 
 
 ## Final Report
+This project showed how easy it is to add messaging functionality to an IoT device like the ESP32-CAM. Even though a small mistake like missing a country code digit caused an error troubleshooting taught me to closely inspect API request formats.
