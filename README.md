@@ -75,10 +75,11 @@ How did I solve: Double checked CallMeBot’s number on their official site. Add
 ## Final Report
 This project showed how easy it is to add messaging functionality to an IoT device like the ESP32-CAM. Even though a small mistake like missing a country code digit caused an error troubleshooting taught me to closely inspect API request formats.
 
-(Test screenshot.png) <img width="1434" alt="Test screenshot" src="https://github.com/user-attachments/assets/56a2007a-4a81-47ad-937e-57e9d86067da" />
+(Test screenshot) <img width="1434" alt="Test screenshot" src="https://github.com/user-attachments/assets/56a2007a-4a81-47ad-937e-57e9d86067da" />
 
-<img width="1434" alt="HTTP 203 Error screenshot" src="https://github.com/user-attachments/assets/d275dafb-25a4-4d64-b0ef-3d87e75b253b" />
 
-<img width="1434" alt="Message Successful screenshot" src="https://github.com/user-attachments/assets/596a4e4f-0d8a-44eb-aacc-d601e9cfa304" />
+  (HTTP 203 Error: Forgot to add country code 1) <img width="1434" alt="HTTP 203 Error screenshot" src="https://github.com/user-attachments/assets/d275dafb-25a4-4d64-b0ef-3d87e75b253b" />
 
-![Messages from Bot screenshot](https://github.com/user-attachments/assets/010b025c-b3f5-4c81-a95e-a280be10fc10)
+(Message Sent Successfully, After correcting the phone number format.) <img width="1434" alt="Message Successful screenshot" src="https://github.com/user-attachments/assets/596a4e4f-0d8a-44eb-aacc-d601e9cfa304" />
+
+  (Message from CallMeBot: Message received in WhatsApp ) ![Messages from Bot screenshot](https://github.com/user-attachments/assets/010b025c-b3f5-4c81-a95e-a280be10fc10)
