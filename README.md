@@ -75,4 +75,4 @@ How did I solve: Double checked CallMeBot’s number on their official site. Add
 ## Final Report
 This project showed how easy it is to add messaging functionality to an IoT device like the ESP32-CAM. Even though a small mistake like missing a country code digit caused an error troubleshooting taught me to closely inspect API request formats.
 
-(Test screenshot.png)
+(Test screenshot.png) <img width="1434" alt="Test screenshot" src="https://github.com/user-attachments/assets/56a2007a-4a81-47ad-937e-57e9d86067da" />
