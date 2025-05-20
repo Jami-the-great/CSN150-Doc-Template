@@ -80,6 +80,6 @@ This project showed how easy it is to add messaging functionality to an IoT devi
 
   (HTTP 203 Error: Forgot to add country code 1) <img width="1434" alt="HTTP 203 Error screenshot" src="https://github.com/user-attachments/assets/d275dafb-25a4-4d64-b0ef-3d87e75b253b" />
 
-(Message Sent Successfully, After correcting the phone number format.) <img width="1434" alt="Message Successful screenshot" src="https://github.com/user-attachments/assets/596a4e4f-0d8a-44eb-aacc-d601e9cfa304" />
+(Message Sent Successfully: After correcting the phone number format.) <img width="1434" alt="Message Successful screenshot" src="https://github.com/user-attachments/assets/596a4e4f-0d8a-44eb-aacc-d601e9cfa304" />
 
   (Message from CallMeBot: Message received in WhatsApp ) ![Messages from Bot screenshot](https://github.com/user-attachments/assets/010b025c-b3f5-4c81-a95e-a280be10fc10)
